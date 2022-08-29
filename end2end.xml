@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="End2End">
+    <test name="end2end">
+        <groups>
+            <run>
+                <include name="end2end"></include>
+            </run>
+        </groups>
+        
+        <packages>
+            <package name="com.automationexercise.tests"></package>
+        </packages>
+    </test>
+    
+    
+    
+    
+    
+    
+</suite>
