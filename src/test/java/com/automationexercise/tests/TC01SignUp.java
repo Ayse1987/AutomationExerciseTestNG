@@ -41,7 +41,6 @@ public class TC01SignUp extends BaseClass {
         select.selectByValue("2000");
         loginFormPage.newsletterCheckBox.click();
         loginFormPage.specialOfferCheckBox.click();
-        ReusableMethods.waitFor(10);
         loginFormPage.firstNameTexBox.sendKeys(ConfigReader.getProperty("name"));
         loginFormPage.lastNameTexBox.sendKeys(ConfigReader.getProperty("lastName"));
         loginFormPage.companyTexBox.sendKeys(ConfigReader.getProperty("company"));

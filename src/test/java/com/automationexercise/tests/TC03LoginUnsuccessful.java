@@ -21,7 +21,7 @@ public class TC03LoginUnsuccessful extends BaseClass {
         signInPage.loginPasswordTextBox.sendKeys("ahmet");
         signInPage.loginButton.click();
         ReusableMethods.waitFor(3);
-        signInPage.yourEmailAndPasswordWrongExpression.isDisplayed();
+        Assert.assertTrue(signInPage.yourEmailAndPasswordWrongExpression.isDisplayed());
 
 
 
